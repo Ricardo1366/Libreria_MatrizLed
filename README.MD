@@ -20,7 +20,9 @@ Por ejemplo , tenemos una matriz de 4 x 4 donde el primer led está ubicado en l
 Si miramos la coordenada 0,0 le corresponde la dirección 15. A la 1,1 la 9 o a la 0,3 la 0.
 
 Utilizando esta clase, solo tienes que declarar la matriz y cuando le pasas las coordenadas te devuelve la dirección física del led.
+
 ![Matriz led 4x4](https://github.com/Ricardo1366/Libreria_MatrizLed/blob/master/examples/Matriz_8x8.jpg)
+
 La declaración es la siguiente:
 ```cpp
 MatrizLed Nombre_Variable;
