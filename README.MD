@@ -42,5 +42,11 @@ direccion = Dirección en la que se encuentra el siguiente led en la matriz part
 
 offset = Dirección del primer led de la matriz dentro de la tira de leds si es distinta de 0 (opcional) ;
 
+__posicion__: Devuelve la posición física del led en la tira.
+
+columna = Número de columna.
+
+fila = Número de fila.
+
 
 Si encuentras algún fallo en la ejecución de la librería, por favor informa [AQUÍ](mailto:ricardomakeralicante@gmail.com)
