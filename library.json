@@ -1,0 +1,26 @@
+{
+	"name": "MakAlc MatrizLed",
+	"keywords": "MatrizLed, Maker Alicante",
+	"description": "Devuelve la posición correspondiente a una tira de leds dispuestos en forma de matriz.",
+	"repository":
+	{
+	  "type": "git",
+	  "url": "https://github.com/Ricardo1366/Matriz_Led"
+	},
+	"authors":
+	[
+	  {
+		"name": "Ricardo Gil",
+		"email": "ricardomakeralicante@gmail.com",
+		"maintainer": true
+	  },
+	  {
+		"name": "Asociación Maker Alicante",
+		"email": "asociacionmakeralicante@gmail.com",
+		"maintainer":false
+	  }
+	],
+	"version": "1.0.0",
+	"frameworks": "arduino",
+	"platforms": "*"
+  }
