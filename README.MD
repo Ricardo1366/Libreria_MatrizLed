@@ -10,7 +10,7 @@ PlaformIO
 Para trabajar con esta librería en PlatormIO solo tienes que incluir en el fichero platformio.ini el siguiente texto:
 ```text
 lib_deps =
-           https://github.com/Ricardo1366/Libreria_MatrizLed@^1.0.0
+           https://github.com/Ricardo1366/Libreria_MatrizLed@^1.1.0
 ```
 Documentación
 =============
@@ -41,6 +41,12 @@ inicio = Ubicación física del primer led. (En cual de las cuatro esquinas se e
 direccion = Dirección en la que se encuentra el siguiente led en la matriz partiendo del primero (Horizontal/Vertical).
 
 offset = Dirección del primer led de la matriz dentro de la tira de leds si es distinta de 0 (opcional) ;
+
+primeraFila = Que fila se considera la primera en la matriz de leds, la superior o la inferior.
+
+En la siguiente imagen se ve en que posición de la matriz se guarda cada dirección física del led en función de si la primera fila es la superior o la inferior.
+
+![Ubicación primera fila](https://github.com/Ricardo1366/Libreria_MatrizLed/blob/master/examples/Ubicacion_primera_fila.jpg)
 
 __posicion__: Devuelve la posición física del led en la tira.
 

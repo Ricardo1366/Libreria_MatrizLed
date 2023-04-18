@@ -12,13 +12,14 @@ MatrizLed::MatrizLed()
 }
 
 // Configuración
-void MatrizLed::begin(int Cols, int Rows, ml_Inicio inicio, ml_Direccion direccion, int offset)
+void MatrizLed::begin(int Cols, int Rows, ml_Inicio inicio, ml_Direccion direccion, int offset, ml_UbicacionPrimeraFila primeraFila)
 {
 
 	_nCols = Cols;
 	_nRows = Rows;
 	_direccion = direccion;
 	_offset = offset;
+	_primeraFila = primeraFila;
 
 	switch (inicio)
 	{
@@ -102,6 +103,11 @@ int MatrizLed::posicion(int columna, int fila)
 	_CambioColumna = ColumnaInvertida;
 	_CambioFila = FilaInvertida;
 
+	// En caso de definir como primer fila la superior hay que invertir la posición.
+	if(_primeraFila == ml_UbicacionPrimeraFila::Superior){
+		fila = _nRows - fila - 1;
+	}
+	
 	// En función de si la dirección es horizontal/vertical hay que invertir la columna/fila
 	if (_direccion == ml_Direccion::Direccion_Horizontal)
 	{
