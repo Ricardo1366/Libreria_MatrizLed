@@ -3,7 +3,7 @@ Libreria MatrizLed
 Arduino
 -------
 Para instalar esta librería en Arduino solo hay que descargar el fichero "ZIP" pulsando [AQUÍ](https://github.com/Ricardo1366/Libreria_MatrizLed/archive/refs/heads/master.zip). Una vez descargado se instala desde la opción de menú "Programa | Incluir librería | Añadir biblioteca ZIP"
-![Instalar librería ZIP](https://github.com/AsociacionMakerAlicante/MakAlc_Alarma/raw/master/test/Instalar_Libreria_Zip.JPG)
+![Instalar librería ZIP](https://github.com/Ricardo1366/MakAlc_Alarma/raw/master/test/Instalar_Libreria_Zip.JPG)
 
 PlaformIO
 ---------
